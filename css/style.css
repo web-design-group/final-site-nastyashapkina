@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html, body {
+    height: 100%;
+    
+
+}
+
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000; 
+
+  background-color: rgba(239, 239, 239, 1);
+  text-align: center;
+  padding: top 100px; 
+  text-decoration: none;
+ 
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color:  rgba(97, 172, 223, 1);
+}
+.top{
+  height: 1300px;
+  width: 1920px;
+}
+.nav{
+  display: flex;
+  column-gap: 150px;
+  padding-top: 35px;
+  padding-left: 650px;
+  padding-bottom: 38px;
+  color: black;
+  
+}
+body {
+       width: 1920px;
+     height: auto;
+    margin: 0px;
+     font-family: "Roboto", sans-serif;
+    font-weight:400;
+    background-color: rgba(239, 239, 239, 1);
+    color: #121213;
+}
+.text-overlay{
+  font-size: 50pt;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  color: white;
+text-shadow: -1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #0f0707;
+position: absolute;
+transform: translate(+15%, -90%);
+width: 80%;
+padding: 20px;
+}
+.swirl-overlay{
+  position: absolute;
+  display: flex;
+  transform: translate(+400%, +30%);
+  z-index: 900;
+}
+
+.image-container {
+position: relative;
+width: 100%;
+max-width: 1920px;
+display: flex;
+}
+.image-container img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+.subtitle {
+  width: 520px;
+  font-size: 15pt;
+  margin-left: 190px;
+  transform: translate(+0px, +30%);
+}
+.sgm{
+  transform: translate(+700%, -80%);
+  width: 100px;
+  z-index: -1;
+}
+.text-line{
+  width: 200px;
+  display: flex;
+    transform: translate(+1630px, -500px);
+    border-color: black;
+    font-size: 20pt;
+    
+}
+.about-me{
+  height: 1100px;
+  width: 100%;
+
+}
+.about-me h1{
+  font-size: 48pt;
+  font-style: italic;
+  font-weight:400;
+  transform: translate(+143%, +180%);
+  width: 500px;
+
+}
+.line_hello{
+  display: flex;
+  z-index: -1;
+  transform: translate(-150px, 0px);
+}
+.flag1{
+  display: flex;
+  margin-left: 1200px;
+  transform: translate(+0px, -360%);
+}
+.nas-port{
+  display: flex;
+  transform: translate(+150px, -150%);
+  width: 200px;
+}
+.nastya{
+ 
+  width: 377px;
+  transform: translate(+190%, -350%);
+  font-size: 15pt;
+
+}
+.prgrms{
+  display: flex;
+  transform: translate(+580%, -790%);
+  width: 200px;
+  height: auto;
+}
+.pic-16{
+  display: flex;
+  transform: translate(+170px, -790%);
+  width: 200px;
+}
+.pic-15{
+  display: flex;
+  transform: translate(+700%, -590%);
+  width: 200px;
+}
+.pic-35{
+  display: flex;
+  transform: translate(+690%, -1500%);
+  width: 200px;
+  
+}
+.flag2{
+  display: flex;
+  transform: translate(+335%, -700%);
+  width: 200px;
+
+}
+.cases{
+  height: 900px;
+}
+.cases h1{
+  font-size: 48pt;
+  font-weight: 400;
+  margin-left: 170px;
+  transform: translate(+3%, -150%);
+}
+
+.back-line{
+  z-index: -1;
+  margin-left: 170px;
+}
+.pic-17{
+  display: flex;
+  transform: translate(+1022px, -545%);
+}
+.pic-18{
+  display: flex;
+  transform: translate(+1022px, -366%);
+}
+.pic-19{
+  display: flex;
+  transform: translate(+415px, -530%);
+}
+.pic-20{
+  display: flex;
+  transform: translate(+291px, -680%);
+}
+.kartina img{
+  width: 1920px;
+  height: auto;
+}
+
+
+.challange{
+    height: 1150px;
+
+}
+.challange-group{
+  display: flex;
+  margin-left: 150px;
+  font-size: 15pt;
+}
+.chall-text{
+  width: 400px;
+  padding: 50px;
+     transform: translate(+140px, +0%);
+
+}
+.chall-text p{
+  padding-bottom: 30px;
+}
+.chall-text span{
+   font-size: 35pt;
+  font-weight: bold;
+  
+}
+
+.line-chall{
+  width: 310px;
+  height: 319px;
+  z-index: 0;
+  position: relative;
+   transform: translate(0px, +160%);
+
+}
+.chall-headline span{
+  font-size: 35pt;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.book-cover{
+  height: 2100px;
+}
+.mobi-overall{
+  display: flex;
+  width:1920px;
+}
+.mobi-cover img{
+  width: 1920px;
+
+}
+.mobi-blue{
+  width: 400px;
+  height: 400px;
+  transform: translate(-10%, +93%);
+}
+.mobi-text{
+  width: 400px;
+  padding: 50px;
+  font-size: 15pt;
+}
+.mobi-header{
+  font-size: 35pt;
+  font-weight: bold;
+  width: 500px;
+  padding-bottom: 50px;
+
+}
+
+.concept-header{
+  margin-left: 100px;
+  padding-top: 30px;
+  font-size: 35pt;
+  font-weight: bold;
+  width: 370px;
+}
+.con-turtl-text{
+  display: flex;
+  font-size: 15pt;
+  
+}
+
+.concept-second{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.turtl{
+  width: 510px;
+margin-left: 100px;
+}
+
+.con-turtl img{
+   width: 1920px;
+  height: auto;
+}
+.concept-second-text{
+  width: 400px;
+  padding-left: 100px;
+    font-size: 15pt;
+}
+
+.con-swirl{
+  position: relative;
+  transform: translate(-20%, +20%);
+  z-index: -1;
+}
+.concept-second-img{
+    transform: translate(-47%, 0%);
+
+}
+.c-img img{
+  height: 622px;
+      transform: translate(-65%, 0%);
+
+}
+
+.collab h1{
+  font-size: 35pt;
+}
+
+
+
+.rock-img img{
+  width: 1920px;
+  height: auto;
+}
+.rock-overall{
+  display: flex;
+  padding: 30px;
+}
+
+.rock-overall p{
+  font-size: 15pt;
+  width: 500px;
+  padding-left: 70px;
+
+}
+
+
+
+
+.collab img{
+  width: 1920px;
+  height: auto;
+}
+.collab-text {
+  font-size: 15pt;
+  display: flex;
+  padding: 30px;
+  width: 1800px;
+ 
+}
+
+ 
+.collab-text a{
+
+  font-size: 15pt;
+  display: flex;
+  padding: 30px;
+  text-decoration: none;
+  color: #121213;
+  margin-left: 70px;
+}
+.collab-text a:hover{
+  color:  rgba(97, 172, 223, 1);}
+
+
+
+
+
+
+.char-overall{
+  display: flex;
+  font-size: 15pt;
+  margin-left: 160px;
+  margin-top: 100px;
+}
+.char-31 img{
+  width: 1920px;
+}
+.char-text{
+  width: 400px;
+  padding-left: 70px;
+}
+.char-text h1{
+   width: 700px;
+   margin-bottom: 90px;
+
+}
+.guild-pic{
+  transform: translate(0, +6%);
+}
+
+
+
+
+
+
+
+
+
+.feedback{
+  margin-top: 200px;
+    margin-left: 400px;
+    height: 670px;
+    width:1150px;
+    background-color:  rgb(255, 255, 255);
+    padding: 30px;
+}
+.main-feedback{
+     width:1440px;
+     height: 450px;
+     
+
+
+}
+.form-group{
+    margin-bottom: 1.25rem;
+}
+
+.form-group label,
+.label-like{
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    color: #000000;
+    font-size: 15pt;
+}
+.required{
+    color: #ff6b6b;
+    margin-left: 0.2rem;
+}
+
+.form-group input:not([type="radio"]):not([type="checkbox"]),
+.form-group select,
+.form-group textarea {
+    width: 20%;
+  
+    padding: 0.75rem 1rem;
+    font-size: 15pt;
+    transition: all 0.2s ease;}
+
+   .feed-pic{
+    display: flex;
+    transform: translate(+50%, -130%);
+   }
